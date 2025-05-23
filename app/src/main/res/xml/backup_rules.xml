@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Exclude cache files from backup -->
+    <exclude domain="cache" />
+    <!-- Include app data -->
+    <include domain="shared_prefs" />
+    <include domain="database" />
+</full-backup-content>

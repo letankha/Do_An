@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quản lý công việc</string>
+
+    <!-- Chung -->
+    <string name="save">Lưu</string>
+    <string name="cancel">Hủy</string>
+    <string name="delete">Xóa</string>
+    <string name="edit">Sửa</string>
+    <string name="ok">OK</string>
+    <string name="confirm">Xác nhận</string>
+    <string name="fields_required">Vui lòng điền đầy đủ thông tin</string>
+
+    <!-- LoginActivity -->
+    <string name="login">Đăng nhập</string>
+    <string name="username">Tên đăng nhập</string>
+    <string name="password">Mật khẩu</string>
+    <string name="login_success">Đăng nhập thành công</string>
+    <string name="login_failed">Đăng nhập thất bại. Vui lòng kiểm tra lại tên đăng nhập và mật khẩu</string>
+    <string name="no_account">Chưa có tài khoản? Đăng ký ngay</string>
+
+    <!-- RegisterActivity -->
+    <string name="register">Đăng ký</string>
+    <string name="confirm_password">Xác nhận mật khẩu</string>
+    <string name="passwords_not_match">Mật khẩu không khớp</string>
+    <string name="username_exists">Tên đăng nhập đã tồn tại</string>
+    <string name="register_success">Đăng ký thành công</string>
+    <string name="register_failed">Đăng ký thất bại</string>
+    <string name="has_account">Đã có tài khoản? Đăng nhập</string>
+
+    <!-- MainActivity -->
+    <string name="logout">Đăng xuất</string>
+    <string name="no_tasks">Không có công việc</string>
+    <string name="add_task">Thêm công việc</string>
+    <string name="delete_task">Xóa công việc</string>
+    <string name="task_deleted">Đã xóa công việc</string>
+    <string name="filter">Lọc</string>
+    <string name="sort">Sắp xếp</string>
+    <string name="filter_all">Tất cả</string>
+    <string name="filter_completed">Đã hoàn thành</string>
+    <string name="filter_incomplete">Chưa hoàn thành</string>
+    <string name="sort_date_asc">Ngày (tăng dần)</string>
+    <string name="sort_date_desc">Ngày (giảm dần)</string>
+    <string name="sort_name_asc">Tên (A-Z)</string>
+    <string name="sort_name_desc">Tên (Z-A)</string>
+    <string name="statistics">Thống kê</string>
+
+    <!-- AddEditTaskActivity -->
+    <string name="edit_task">Sửa công việc</string>
+    <string name="task_name">Tên công việc</string>
+    <string name="task_description">Mô tả (tùy chọn)</string>
+    <string name="task_date">Ngày</string>
+    <string name="task_time">Thời gian</string>
+    <string name="task_completed">Đã hoàn thành</string>
+    <string name="task_id">Mã công việc:</string>
+    <string name="task_added">Đã thêm công việc</string>
+    <string name="task_updated">Đã cập nhật công việc</string>
+
+    <!-- Thông báo -->
+    <string name="channel_name">Nhắc nhở công việc</string>
+    <string name="channel_description">Thông báo nhắc nhở cho các công việc</string>
+    <string name="notification_title">Nhắc nhở công việc</string>
+    <string name="task_reminder">Đã đến giờ: %1$s</string>
+    <string name="mark_completed">Đánh dấu hoàn thành</string>
+    <string name="auto_sync_enabled">Đã bật tự động đồng bộ</string>
+    <string name="auto_sync_disabled">Đã tắt tự động đồng bộ</string>
+    <string name="connected">Đã kết nối đám mây</string>
+    <string name="disconnected">Đã ngắt kết nối đám mây</string>
+    <string name="connection_failed">Kết nối thất bại: %1$s</string>
+    <string name="no_tasks_to_sync">Không có công việc để đồng bộ</string>
+    <string name="download_from_cloud">Tải xuống từ đám mây</string>
+    <string name="download_confirm_message">Dữ liệu hiện tại sẽ bị ghi đè bởi dữ liệu từ đám mây. Bạn có chắc muốn tiếp tục?</string>
+    <string name="continue_text">Tiếp tục</string>
+    <string name="no_data_in_cloud">Không có dữ liệu trên đám mây</string>
+    <string name="confirm_overwrite">Xác nhận ghi đè</string>
+    <string name="found_tasks">Đã tìm thấy %1$d công việc. Ghi đè dữ liệu hiện tại?</string>
+    <string name="overwrite">Ghi đè</string>
+    <string name="updating_database">Đang cập nhật cơ sở dữ liệu...</string>
+    <string name="updated_tasks">Đã cập nhật %1$d công việc từ đám mây</string>
+
+    <!-- Thống kê -->
+    <string name="stats_title">Thống kê công việc</string>
+    <string name="stats_total">Tổng số công việc: %1$d</string>
+    <string name="stats_completed">Đã hoàn thành: %1$d (%2$s%%)</string>
+    <string name="stats_incomplete">Chưa hoàn thành: %1$d (%2$s%%)</string>
+    <string name="stats_upcoming">Sắp tới: %1$d</string>
+    <string name="stats_overdue">Quá hạn: %1$d</string>
+
+    <!-- Đồng bộ đám mây -->
+    <string name="cloud_sync">Đồng bộ đám mây</string>
+    <string name="connect_cloud">Kết nối đám mây</string>
+    <string name="disconnect_cloud">Ngắt kết nối</string>
+    <string name="sync_connected">Đã kết nối</string>
+    <string name="sync_not_connected">Chưa kết nối</string>
+    <string name="sync_options">Tùy chọn đồng bộ</string>
+    <string name="auto_sync">Tự động đồng bộ</string>
+    <string name="upload">Tải lên</string>
+    <string name="download">Tải xuống</string>
+    <string name="sync_last">Lần đồng bộ cuối: %1$s</string>
+    <string name="sync_connecting">Đang kết nối...</string>
+    <string name="sync_uploading">Đang tải lên...</string>
+    <string name="sync_downloading">Đang tải xuống...</string>
+    <string name="sync_success">Đồng bộ thành công</string>
+    <string name="sync_failure">Đồng bộ thất bại: %1$s</string>
+    <string name="error_not_connected">Chưa kết nối đám mây</string>
+</resources>

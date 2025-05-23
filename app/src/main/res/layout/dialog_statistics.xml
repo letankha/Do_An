@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/stats_title"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/textViewStatsTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        tools:text="Tổng số công việc: 10" />
+
+    <TextView
+        android:id="@+id/textViewStatsCompleted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        tools:text="Đã hoàn thành: 5 (50.0%)" />
+
+    <ProgressBar
+        android:id="@+id/progressBarCompleted"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progress="50"
+        android:progressTint="@android:color/holo_green_dark"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/textViewStatsIncomplete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        tools:text="Chưa hoàn thành: 5 (50.0%)" />
+
+    <ProgressBar
+        android:id="@+id/progressBarIncomplete"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progress="50"
+        android:progressTint="@android:color/holo_red_light"
+        android:layout_marginBottom="8dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginVertical="8dp" />
+
+    <TextView
+        android:id="@+id/textViewStatsUpcoming"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        tools:text="Sắp tới: 3" />
+
+    <TextView
+        android:id="@+id/textViewStatsOverdue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Quá hạn: 2" />
+
+</LinearLayout>

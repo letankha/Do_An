@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/media_route_menu_item"
+        android:title="Cast"
+        app:actionProviderClass="androidx.mediarouter.app.MediaRouteActionProvider"
+        tools:icon="@drawable/mr_button_light" />
+    <item
+        android:id="@+id/action_filter"
+        android:title="@string/filter"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/filter_all"
+                android:title="@string/filter_all" />
+            <item
+                android:id="@+id/filter_completed"
+                android:title="@string/filter_completed" />
+            <item
+                android:id="@+id/filter_incomplete"
+                android:title="@string/filter_incomplete" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_sort"
+        android:title="@string/sort"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/sort_date_asc"
+                android:title="@string/sort_date_asc" />
+            <item
+                android:id="@+id/sort_date_desc"
+                android:title="@string/sort_date_desc" />
+            <item
+                android:id="@+id/sort_name_asc"
+                android:title="@string/sort_name_asc" />
+            <item
+                android:id="@+id/sort_name_desc"
+                android:title="@string/sort_name_desc" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_stats"
+        android:title="@string/statistics"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_cloud_sync"
+        android:title="@string/cloud_sync"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_logout"
+        android:title="@string/logout"
+        app:showAsAction="never" />
+
+</menu>
